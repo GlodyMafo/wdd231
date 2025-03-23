@@ -17,6 +17,23 @@
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+<header>
 
+</header>
+<main>
+
+</main>
+<footer>
+    <p>Contact: info@chamberofcommerce.com</p>
+    <p>Development by Glody Mafo, WDD 231</p>
+    <p id="last-modified">Last modified: </p>
+    <p>&copy; <span id="current-year"></span></p>
+  </footer>
+  
+  <script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+    document.getElementById("last-modified").textContent += document.lastModified;
+  </script>
+  
 </body>
 </html>
