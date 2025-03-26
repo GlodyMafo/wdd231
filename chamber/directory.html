@@ -14,14 +14,29 @@
   <title>Chamber of Commerce Directory</title>
   <link rel="icon" href="images/CumorahHill.png" type="image/icon">
 
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/directory.css">
 </head>
 <body>
 <header>
-
+    <div>
+        <h1>CumorahHill Chamber</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="">Join</a></li>
+                <li><a href="">Discover</a></li>
+            </ul>
+        </nav>
+    </div>
+  
 </header>
 <main>
-
+  
+    <a id="normalView"><img src="./images/menu-navigation-grid-1529-svgrepo-com.svg" alt="Grid Btn" class="toggle"></a>
+    <a id="listView"><img src="./images/menu-svgrepo-com.svg" alt="List Btn" class="toggle"></a>
+    
+    <section id="directory"></section>
 </main>
 <footer>
     <p>Contact: info@chamberofcommerce.com</p>
@@ -30,10 +45,11 @@
     <p>&copy; <span id="current-year"></span></p>
   </footer>
   
-  <script>
-    document.getElementById("current-year").textContent = new Date().getFullYear();
-    document.getElementById("last-modified").textContent += document.lastModified;
+  <script src="scripts/getdate.js">
   </script>
+  <script src="scripts/directory.js">
+  </script>
+  
   
 </body>
 </html>

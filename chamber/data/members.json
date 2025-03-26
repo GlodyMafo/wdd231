@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Cumorah Hill",
+        "address": "123 Main St, Cityville",
+        "phone": "(123) 456-7890",
+        "website": "https://cmh.com",
+        "image": "CumorahHill.png",
+        "membership": 1
+    },
+    {
+        "name": "ADP Agency",
+        "address": "456 Business Rd, Townsville",
+        "phone": "(987) 654-3210",
+        "website": "https://adp.com",
+        "image": "adp.svg",
+        "membership": 2
+    },
+    {
+        "name": "Cumorah Hill",
+        "address": "123 Main St, Cityville",
+        "phone": "(123) 456-7890",
+        "website": "https://cmh.com",
+        "image": "CumorahHill.png",
+        "membership": 3
+    },
+    {
+        "name": "ADP Agency",
+        "address": "456 Business Rd, Townsville",
+        "phone": "(987) 654-3210",
+        "website": "https://xyzenterprises.com",
+        "image": "adp.svg",
+        "membership": 4
+    },
+    {
+        "name": "Cumorah Hill",
+        "address": "123 Main St, Cityville",
+        "phone": "(123) 456-7890",
+        "website": "https://cmh.com",
+        "image": "CumorahHill.png",
+        "membership": 5
+    },
+    {
+        "name": "ADP Agency",
+        "address": "456 Business Rd, Townsville",
+        "phone": "(987) 654-3210",
+        "website": "https://xyzenterprises.com",
+        "image": "adp.svg",
+        "membership": 6
+    },
+    {
+        "name": "Cumorah Hill",
+        "address": "123 Main St, Cityville",
+        "phone": "(123) 456-7890",
+        "website": "https://cmh.com",
+        "image": "CumorahHill.png",
+        "membership": 7
+    },
+    {
+        "name": "ADP Agency",
+        "address": "456 Business Rd, Townsville",
+        "phone": "(987) 654-3210",
+        "website": "https://xyzenterprises.com",
+        "image": "adp.svg",
+        "membership": 8
+    },
+    {
+        "name": "Cumorah Hill",
+        "address": "123 Main St, Cityville",
+        "phone": "(123) 456-7890",
+        "website": "https://cmh.com",
+        "image": "CumorahHill.png",
+        "membership": 9
+    }
+]
+   
