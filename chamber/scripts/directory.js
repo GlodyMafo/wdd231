@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
             table.innerHTML = `
                 <thead>
                     <tr>
-                        <th>Nom</th>
-                        <th>Adresse</th>
-                        <th>Téléphone</th>
-                        <th>Site Web</th>
+                        <th>Name</th>
+                        <th>Adress</th>
+                        <th>Phone</th>
+                        <th>Web Site</th>
                     </tr>
                 </thead>
                 <tbody>
