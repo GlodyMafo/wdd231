@@ -1,11 +1,12 @@
 [
-    {
+     {
         "name": "Cumorah Hill",
         "address": "123 Main St, Cityville",
         "phone": "(123) 456-7890",
         "website": "https://cmh.com",
         "image": "CumorahHill.png",
-        "membership": 1
+        "membership": 1,
+        "type" : "Gold"
     },
     {
         "name": "ADP Agency",
@@ -13,15 +14,17 @@
         "phone": "(987) 654-3210",
         "website": "https://adp.com",
         "image": "adp.svg",
-        "membership": 2
+        "membership": 2,
+        "type": "Sylver"
     },
     {
-        "name": "Cumorah Hill",
+        "name": "Kingo Entertement",
         "address": "123 Main St, Cityville",
         "phone": "(123) 456-7890",
-        "website": "https://cmh.com",
-        "image": "CumorahHill.png",
-        "membership": 3
+        "website": "https://kingo.com",
+        "image": "kingo-logo.svg",
+        "membership": 3,
+         "type": "Sylver"
     },
     {
         "name": "ADP Agency",

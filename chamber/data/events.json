@@ -1,0 +1,45 @@
+{
+    "events": [
+      {
+        "title": "Young Entrepreneurs Conference",
+        "date": "2025-04-15",
+        "time": "09:00",
+        "location": "Conference Center, Lubumbashi",
+        "description": "An event dedicated to young entrepreneurs featuring conferences, workshops, and networking opportunities.",
+        "image": "https://img.freepik.com/photos-gratuite/portrait-homme-affaires-elegant-professionnel-s-exprimant-lors-conference_23-2150917212.jpg?t=st=1743712367~exp=1743715967~hmac=a9322597c1d19f26633bf8fa8f84789613f9513d340f16f9e568279da39d84d8&w=900"
+      },
+      {
+        "title": "Tech Innovation Hackathon",
+        "date": "2025-05-10",
+        "time": "08:00",
+        "location": "University of Lubumbashi",
+        "description": "A 48-hour hackathon where participants develop innovative tech solutions.",
+        "image": "https://img.freepik.com/photos-premium/garcon-afro-americain-utilisant-ordinateur-nuit_781871-1798.jpg?uid=R133206601&ga=GA1.1.1257039164.1736001264&semt=ais_hybrid"
+      },
+      {
+        "title": "Job & Training Fair",
+        "date": "2025-06-05",
+        "time": "10:00",
+        "location": "Exhibition Palace, Kinshasa",
+        "description": "Meet employers and training organizations to boost your career.",
+        "image": "https://img.freepik.com/photos-gratuite/visage-belle-femme-affaires-afro-americaine-tenant-tablette-fond-reunion-equipe-multiraciale-gens-affaires-assis-dans-table-bureau_627829-13639.jpg?uid=R133206601&ga=GA1.1.1257039164.1736001264&semt=ais_hybrid"
+      },
+      {
+        "title": "Gospel Live Concert",
+        "date": "2025-06-20",
+        "time": "18:30",
+        "location": "Kibassa Maliba Stadium",
+        "description": "An exceptional concert featuring international and local gospel artists.",
+        "image": "https://img.freepik.com/photos-gratuite/danser-lors-concert-pendant-que-chanteur-se-produit-entoure-lumieres_181624-22022.jpg?t=st=1743713023~exp=1743716623~hmac=a3e700afaedfee5d44b8f238535254ce9d0934ad3afba6516820542e0239a8e1&w=1380"
+      },
+      {
+        "title": "Motivational Conference with Glody Mafo",
+        "date": "2025-07-02",
+        "time": "14:00",
+        "location": "Grand Karavia Hotel",
+        "description": "An inspiring conference on success and personal development.",
+        "image": "https://img.freepik.com/photos-gratuite/dirigeant-entreprise-masculin-prononcant-discours_107420-63809.jpg?uid=R133206601&ga=GA1.1.1257039164.1736001264&semt=ais_hybrid"
+      }
+    ]
+  }
+  
