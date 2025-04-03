@@ -62,20 +62,20 @@ h2 {
     text-align: center;
     display: inline-block;
 }
-.events {
+.events, .spotlight {
     padding: 20px;
     background: white;
    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.weather, .spotlight {
+/* .spotlight {
     padding: 20px;
     background: white;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+} */
 
 #events-container {
     display: grid;
