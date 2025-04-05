@@ -27,7 +27,7 @@
             <img src="images/glody.jpg" alt="Glody Mafo" class="profile-img">
             <h1>Glody K. Mafo</h1>
         </div>
-      
+
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -41,14 +41,14 @@
     <main>
         <section class="ressources">
             <h2>Course Work</h2>
-           
-                <ul>
-                    <li><a href="">Udemy</a></li>
-                    <li><a href="">CSS Tricks</a></li>
-                    <li><a href="">Dev.to Community</a></li>
-                    <li><a href="">Smashing Magazine</a></li>
-                </ul>
-           
+
+            <ul>
+                <li><a href="">Udemy</a></li>
+                <li><a href="">CSS Tricks</a></li>
+                <li><a href="">Dev.to Community</a></li>
+                <li><a href="">Smashing Magazine</a></li>
+            </ul>
+
         </section>
 
         <section class="info">
@@ -71,15 +71,16 @@
             <hr>
 
             <div class="courses">
-                <a href="">CSE 110</a>
-                <a href="">WDD 130</a>
-                <a href="">CSE 111</a>
-                <a href="">CSE 210</a>
-                <a href="">WDD 131</a>
-                <a href="">WDD 231</a>
+                <a href="javascript:void(0)" class="course-card" data-course="cse110">CSE 110</a>
+                <a href="javascript:void(0)" class="course-card" data-course="wdd130">WDD 130</a>
+                <a href="javascript:void(0)" class="course-card" data-course="cse111">CSE 111</a>
+                <a href="javascript:void(0)" class="course-card" data-course="cse210">CSE 210</a>
+                <a href="javascript:void(0)" class="course-card" data-course="wdd131">WDD 131</a>
+                <a href="javascript:void(0)" class="course-card" data-course="wdd231">WDD 231</a>
             </div>
 
         </section>
+        <dialog id="course-details"></dialog>
     </main>
 
     <footer>
@@ -87,12 +88,12 @@
             <p>&copy; <span id="currentyear"></span> Goldy Mafo Kisanga, DR Congo.</p>
             <img src="images/flag.png" alt="flag">
         </div>
-      
+
         <p id="lastModified"></p>
     </footer>
 
     <script src="scripts/editingTime.js"></script>
- 
+    <script src="scripts/modal.js"></script>
 </body>
 
 </html>
