@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join us and become a member of our chamber of commerce.">
+  <meta name="keywords" content="chamber of commerce, directory, businesses, members, contact, information">
+  <meta name="author" content="Glody Mafo">
+  <title>Join Us - Chamber of Commerce</title>
+
+  <meta property="og:title" content="Chamber of Commerce Directory">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:url" content="https://www.yoursite.com/directory.html">
+  
+  <link rel="icon" href="images/logo.svg" type="image/icon">
+
+  <link rel="stylesheet" href="styles/join.css">
+  <link rel="stylesheet" href="styles/menu-large.css">
+  <link rel="stylesheet" href="styles/menu.css">
+
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.svg" alt="">
+            </div>
+
+            <a id="menu" href="#"></a>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="">Discover</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+<main>
+  
+    <h1>Join our chamber</h1>
+
+    <div class="join-content">
+
+    
+    <form method="get" action="thankyou.html" class="join-form">
+        <label>
+          First Name:
+          <input type="text" name="firstName" title="First Name" autocomplete="given-name" required>
+        </label>
+  
+        <label>
+          Last Name:
+          <input type="text" name="lastName" title="Last Name" autocomplete="family-name" required>
+        </label>
+  
+        <label>
+          Title in Organization:
+          <input type="text" name="orgTitle" title="Organizational Title" autocomplete="organization-title"
+                 pattern="[A-Za-z\s\-]{7,}">
+        </label>
+  
+        <label>
+          Email:
+          <input type="email" name="email" title="Email Address" autocomplete="email" placeholder="example@email.com" required>
+        </label>
+  
+        <label>
+          Mobile Number:
+          <input type="tel" name="mobile" title="Mobile Number" autocomplete="tel" required>
+        </label>
+  
+        <label>
+          Business/Organization Name:
+          <input type="text" name="organization" title="Organization Name" autocomplete="organization" required>
+        </label>
+  
+        <label>
+          Membership Level:
+          <select name="membership" title="Membership Level">
+            <option value="np">NP Membership (Free)</option>
+            <option value="bronze">Bronze</option>
+            <option value="silver">Silver</option>
+            <option value="gold">Gold</option>
+          </select>
+        </label>
+  
+        <label>
+          Business Description:
+          <textarea name="description" title="Business Description"></textarea>
+        </label>
+  
+        <input type="hidden" name="timestamp" id="timestamp">
+  
+        <input type="submit" value="Submit Application">
+      </form>
+
+      <section class="membership-cards">
+        <div class="card np-card">
+          <h3>NP Membership</h3>
+          <p>Perfect for nonprofit organizations. Get basic access to events and networking at no cost.</p>
+          <button onclick="openModal('npModal')">More Info</button>
+        </div>
+  
+        <div class="card bronze-card">
+          <h3>Bronze</h3>
+          <p>Great for small businesses. Enjoy extended access to events and increased exposure.</p>
+          <button onclick="openModal('bronzeModal')">More Info</button>
+        </div>
+  
+        <div class="card silver-card">
+          <h3>Silver</h3>
+          <button onclick="openModal('silverModal')">More Info</button>
+        </div>
+  
+        <div class="card gold-card">
+          <h3>Gold</h3>
+          <button onclick="openModal('goldModal')">More Info</button>
+        </div>
+      </section>
+  
+      <div id="npModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('npModal')">&times;</span>
+          <h4>🟦 NP Membership (Non-Profit)</h4>
+          <p>This free plan includes:</p>
+          <ul>
+            <li>
+                Access to community events
+            </li>
+            <li>
+                Networking opportunities
+            </li> <li>
+                Limited visibility on our website
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="bronzeModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('bronzeModal')">&times;</span>
+          <h4>🥉 Bronze Membership</h4>
+          <p>This free plan includes:</p>
+          <ul>
+            <li>
+                All NP benefits
+            </li>
+            <li>
+                Priority registration for events
+            </li> <li>
+                Listing in our business directory
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="silverModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('silverModal')">&times;</span>
+          <h4>Sliver Membership Benefits</h4>
+          <p>No fee, access to networking events, community visibility.</p>
+        </div>
+      </div>
+
+
+      <div id="goldModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('goldModal')">&times;</span>
+          <h4>Gold Membership Benefits</h4>
+          <p>No fee, access to networking events, community visibility.</p>
+        </div>
+      </div>
+
+    </div>
+  
+</main>
+<footer>
+    <p>Contact: info@chamberofcommerce.com</p>
+    <p>Development by Glody Mafo, WDD 231</p>
+    <p id="last-modified">Last modified: </p>
+    <p>&copy; <span id="current-year"></span></p>
+  </footer>
+  
+  <script src="scripts/getdate.js">
+  </script>
+  <script src="scripts/join.js">
+  </script>
+  <script src="scripts/menu.js"></script>
+  
+  
+</body>
+</html>

@@ -55,6 +55,7 @@ nav ul li a:hover {
     color: #ffcc00;
 }
 
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -64,6 +65,7 @@ main {
     max-width: 100%;
     box-sizing: border-box;
 }
+
 
 .ressources, .info, .certificate {
     background: white;
