@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Chutes de Zongo",
+      "address": "Zongo, Equator",
+      "description": "Discover one of the most stunning natural wonders in the DRC, featuring powerful waterfalls surrounded by lush greenery—perfect for a nature getaway.",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/e6/03/4f/zongo-falls.jpg?w=1800&h=1000&s=1"
+    },
+    {
+      "name": "National Museum of DRC",
+      "address": "Kinshasa",
+      "description": "A modern museum showcasing the rich cultural and historical heritage of the Democratic Republic of Congo through interactive exhibits and rare artifacts.",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/2a/6a/e3/view-of-a-part-of-room.jpg?w=1400&h=800&s=1"
+    },
+    {
+      "name": "Nyiragongo Volcano",
+      "address": "North Kivu, Goma",
+      "description": "Hike to the summit of this active volcano and witness one of the world’s largest lava lakes—an unforgettable experience for adventure seekers.",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/e9/1a/3e/photo0jpg.jpg?w=1400&h=800&s=1"
+    },
+    {
+      "name": "Virunga National Park",
+      "address": "North Kivu, Goma",
+      "description": "Explore Africa’s oldest national park, home to the famous mountain gorillas, dramatic volcanoes, and an extraordinary range of wildlife.",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/29/96/6a/stastna-rodinka.jpg?w=1800&h=1000&s=1"
+    },
+    {
+      "name": "Lubumbashi Zoo",
+      "address": "Lubumbashi, Haut-Katanga",
+      "description": "A family-friendly spot in the heart of Lubumbashi, where you can discover local wildlife and enjoy a peaceful day surrounded by nature.",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/c2/3a/69/caption.jpg?w=1100&h=600&s=1"
+    },
+    {
+      "name": "Texaf Bilembo",
+      "address": "Kinshasa",
+      "description": "An innovative cultural center combining contemporary art, Congolese craftsmanship, and environmental education in a serene setting.",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/19/0a/21/texaf-bilembo.jpg?w=800&h=500&s=1"
+    },
+    {
+      "name": "Limete Tower Exchange",
+      "address": "Kinshasa",
+      "description": "An iconic monument offering panoramic views of Kinshasa, symbolizing unity and modernity in the capital city.",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/74/5a/40/caption.jpg?w=1000&h=600&s=1"
+    },
+    {
+      "name": "Nsele Valley Park",
+      "address": "Kinshasa",
+      "description": "A vast recreational park featuring safaris, a lake, a zoo, and green spaces—ideal for families and nature lovers seeking relaxation and fun.",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/76/94/f2/park-of-the-nsele-valley.jpg?w=1100&h=600&s=1"
+    }
+  ]
+  
