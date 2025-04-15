@@ -1,0 +1,55 @@
+header {
+    background-color: white;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 120px;
+  }
+  
+  .main-nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 500;
+    font-family: var(--font-body);
+  }
+  
+  .main-nav a:hover,
+  .main-nav:active {
+    color: var(--color-accent);
+  }
+
+.navigation li {
+    display: none;
+}
+
+
+.show li {
+    display: block;
+}
+
+
+@media only screen and (min-width: 720px) {
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation{
+        text-align: center;
+    }
+
+    #menu {
+        display: none;
+    }
+}
